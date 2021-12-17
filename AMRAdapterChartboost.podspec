@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterChartboost'
-  s.version          = '8.5.0.0'
+  s.version          = '8.5.0.1'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited. 
@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.platform 			= :ios
   s.ios.deployment_target = '10.0'
   s.vendored_libraries = 'AMRAdapterChartboost/Libs/libAMRAdapterChartboost.a'
-  s.dependency 'AMRSDK', '~> 1.4.84'
+  s.dependency 'AMRSDK', '~> 1.5.0'
   s.dependency 'ChartboostSDK', '8.5.0'
 end
