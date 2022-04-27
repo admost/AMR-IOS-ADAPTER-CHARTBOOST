@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterChartboost'
-  s.version          = '8.5.0.2'
+  s.version          = '8.5.0.3'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited. 
@@ -18,6 +18,12 @@ Pod::Spec.new do |s|
   s.platform 			= :ios
   s.ios.deployment_target = '10.0'
   s.vendored_frameworks = 'AMRAdapterChartboost/Libs/AMRAdapterChartboost.xcframework'
-  s.dependency 'AMRSDK', '~> 1.5.6'
+  s.pod_target_xcconfig = { 
+    'OTHER_LDFLAGS' => '-ObjC -lc++',
+    "VALID_ARCHS": "arm64 armv7 x86_64",
+    'VALID_ARCHS[sdk=iphoneos*]' => 'armv7 arm64',
+    'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
+  }
+  s.dependency 'AMRSDK', '~> 1.5.7'
   s.dependency 'ChartboostSDK', '8.5.0'
 end
