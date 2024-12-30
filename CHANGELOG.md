@@ -3,10 +3,13 @@
 Changelog for AMRAdapterChartboost. 
 ChartboostSDK [changelog](https://answers.chartboost.com/en-us/child_article/ios)
 
+## [9.8.0.2] - 2024-12-30
+### Updated
+- Revenue Paid supported added.
+
 ## [9.8.0.1] - 2024-11-19
 ### Updated
 - Ad quality support added.
-
 
 ## [9.8.0.0] - 2024-11-04
 ### Updated
