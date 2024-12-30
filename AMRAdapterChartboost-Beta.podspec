@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterChartboost-Beta'
-  s.version          = '9.8.0.1'
+  s.version          = '9.8.0.2'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited. 
@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphoneos*]' => 'armv7 arm64',
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
-  s.dependency 'AMRSDK-Beta', '~> 1.5.52'
+  s.dependency 'AMRSDK-Beta', '~> 1.5.55'
   s.dependency 'ChartboostSDK', '9.8.0'
 end
