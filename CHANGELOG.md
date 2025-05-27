@@ -3,7 +3,11 @@
 Changelog for AMRAdapterChartboost. 
 ChartboostSDK [changelog](https://answers.chartboost.com/en-us/child_article/ios)
 
-## [9.8.2.0] - 2024-24-02
+## [9.9.0.0] - 2024-05-27
+### Updated
+- Offical release for ChartboostSDK 9.9.0
+
+## [9.8.2.0] - 2024-02-24
 ### Updated
 - Offical release for ChartboostSDK 9.8.1
 
