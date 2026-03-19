@@ -3,6 +3,11 @@
 Changelog for AMRAdapterChartboost. 
 ChartboostSDK [changelog](https://answers.chartboost.com/en-us/child_article/ios)
 
+## [9.11.0] - 2026-03-19
+### Updated
+- Offical release for ChartboostSDK 9.11.0
+- SPM support added.
+
 ## [9.11.0.0] - 2025-12-23
 ### Updated
 - Offical release for ChartboostSDK 9.11.0
