@@ -3,6 +3,11 @@
 Changelog for AMRAdapterChartboost. 
 ChartboostSDK [changelog](https://answers.chartboost.com/en-us/child_article/ios)
 
+## [9.14.2] - 2026-10-05
+### Updated
+- Official release for ChartboostSDK 9.14.2
+- Migrated off the deprecated `isCached` API: interstitial/rewarded now call `cache` / `showFromViewController:` directly and rely on `didCacheAd:error:` / `didShowAd:error:`
+
 ## [9.11.0] - 2026-03-19
 ### Updated
 - Offical release for ChartboostSDK 9.11.0
